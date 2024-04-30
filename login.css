@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #282525;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.robo {
+    background-image: url(./img/background.png);
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.barradelogin {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #8c8c8c;
+    width: 50vh;
+    height: 55vh;
+    border-radius: 15%;
+}
+
+.informacoes {
+    display: grid;
+    width: 418px;
+    height: 340px;
+    justify-content: center;
+    align-items: center;
+}
+
+.usuario {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.senha {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.email {
+    display: flex;
+    width: 45vh;
+    height: 50px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 10px;
+}
+
+.senhainput {
+    display: flex;
+    width: 45vh;
+    height: 50px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 10px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    background-color: #d9d9d9;
+    width: 150px;
+    height: 50px;
+}
+
+.titulo{
+    color: white;
+    font-size: 100px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}

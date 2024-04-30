@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282525;
+}
+
+
+header{
+    display: inline-flex;
+}
+
+.foto{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: 25%;
+    height: 250px;
+}
+.robo{
+    background-image: url(./img/robo\ talk.png);
+    width: 213px;
+    height: 205px;
+}
+.escrever{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    height: 220px;
+    width: 150vh;
+}
+.caixaDeTexo{
+    display: flex;
+    height: 60px;
+    width: 130vh;
+    background-color: #8C8C8C;
+    border: none;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.enviar{
+    position: absolute;
+    width: 65px;
+    height: 55px;
+    background-image: url(./img/botaoenviar.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.botaoenviar{
+    position: absolute;
+    width: 65px;
+    height: 55px;
+    bottom: 2px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+::placeholder{
+    color: black;
+    opacity: 49%;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resposta{
+    display: flex;
+    margin-left: 6%;
+    justify-content: start;
+    align-items: flex-start;
+    height: 500px;
+    width: 130vh;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.respostadiv{    
+    position: absolute;
+    margin-left: 5%;
+    height: 500px;
+    width: 128vh;
+    background-color: transparent;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    height: 80px;
+}
+
+
+.btntraduzir{
+    margin-right: 10%;
+    margin-top: 10px;
+    height: 50px;
+    width: 120px;
+}
